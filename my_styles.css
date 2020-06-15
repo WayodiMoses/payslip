@@ -1,0 +1,248 @@
+body {
+	background: #f0f0f0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+    padding: 20px;
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,600,700');
+
+* {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #444;
+}
+
+#payslip {
+	width: calc( 8.5in - 80px );
+	height: calc( 11in - 60px );
+	background: #fff;
+	padding: 30px 40px;
+}
+
+#title {
+	margin-bottom: 20px;
+	margin-left: 35%;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: "Times New Roman", Times, serif;
+	display: inline-block;
+}
+
+.scope {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 7px 0 4px 0;
+	display: flex;
+	justify-content: space-around;
+	background: rgba(0, 0, 0, 0.04);
+}
+
+.scope .entry{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+
+.scope .entry .value {
+	font-weight: 700;
+	max-width: 130px;
+	text-align: right;
+}
+
+#scope {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 7px 0 4px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+#scope > .scope-entry {
+	text-align: center;
+}
+
+#scope > .scope-entry > .value {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+#earnings_title {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 7px 0 4px 0;
+	display: flex;
+	justify-content: space-around;
+	background: rgba(0, 0, 0, 0.04);
+}
+
+#earnings_title > .earnings_title1 {
+	text-align: center;
+}
+
+#searnings_title > .earnings_title1 > .value {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.staff_details{
+	display: inline-block;
+	font-weight: 700;
+	padding-right: 0px;
+}
+.staff_details .staff_left{
+	float:left; 
+    width:30%;
+    overflow: hidden;
+    padding-right: 20px;
+}
+
+.staff_details .staff_left .entry{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+
+}
+
+.staff_details .staff_center{
+	float:left;  
+    width:30%;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.staff_details .staff_center .entry{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+
+.staff_details .staff_right{
+	float:right;  
+    width:30%; 
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.staff_details .staff_right .entry{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+
+.content {
+	display: inline-block;
+	border-bottom: 1px solid #ccc;
+	height: 880px;
+	width: 100%;
+	padding-top: 40px;
+}
+
+.content .earnings{
+	padding-bottom: 20px;
+}
+
+.content .earnings_left {
+	float: left;
+  	width: 40%;
+  	overflow: hidden;
+}
+.content .earnings_left .entry{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+
+.content .earnings_left .title_e{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+	font-weight: 700;
+}
+
+.content .earnings_left .entry .amount{
+	font-weight: 700;
+	max-width: 100px;
+	text-align: right;
+}
+
+.content .earnings_right {
+	overflow: hidden;
+	padding-left: 120px;
+	width: 40%;
+}
+
+.content .earnings_right .entry{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+.content .earnings_right .title_e{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+	font-weight: 700;
+}
+
+.content .earnings_right .entry .amount{
+	font-weight: 700;
+	max-width: 130px;
+	text-align: right;
+}
+
+.content .deductions{
+	padding-bottom: 20px;
+}
+
+.content .deductions_left {
+	float: left;
+  	width: 40%;
+  	overflow: hidden;
+}
+
+.content .deductions_left .entry{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+
+.content .deductions_left .title_e{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+	font-weight: 700;
+}
+
+.content .deductions_left .entry .amount{
+	font-weight: 700;
+	max-width: 100px;
+	text-align: right;
+}
+
+.content .deductions_right {
+	overflow: hidden;
+	padding-left: 120px;
+	width: 40%;
+}
+
+.content .deductions_right .entry{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+.content .deductions_right .title_e{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+	font-weight: 700;
+}
+
+.content .deductions_right .entry .amount{
+	font-weight: 700;
+	max-width: 130px;
+	text-align: right;
+}
